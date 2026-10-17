@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types 
 from prompts import  SYSTEM_PROMPT, WELCOME_PROMPT,SUMMARY_PROMPT
 
-MODEL_NAME = "gemini-3.5-flash" 
+MODEL_NAME = "gemini-3.8-flash" 
 st.set_page_config(page_title="DoubtShot", page_icon=" 🎓 ") 
 
 # Load secrets
